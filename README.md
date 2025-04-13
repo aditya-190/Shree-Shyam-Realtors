@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏡 Shree Shyam Realtors CRM
 
-## Getting Started
+A modern, open-source **Customer Relationship Management (CRM)** system built with **Next.js** to streamline and summarize the day-to-day operations of a real estate business — tailored for the family business - **Shree Shyam Realtors**.
 
-First, run the development server:
+This project is designed to solve real-world problems faced while managing clients, inventories, deals, and financials. It aims to offer a **single dashboard view** to make smarter, more productive decisions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **📊 Dashboard**: Overview of current month – revenue, deals, pending earnings, expenses
+- **👥 Clients Management**: Add, edit, and track client details
+- **🏢 Inventory Management**: View and update inventory status (available, in progress, sold/rented)
+- **📄 Deals Tracker**: Sales & rental tracking with detailed deal info
+- **🔔 Follow-ups & Reminders**: Automatic reminders via email, SMS, or in-app
+- **💸 Expenses Tracking**: Record monthly expenses, split and track share
+- **💰 Earnings Tracker**: Auto-calculated earnings and balances (month-wise)
+- **📜 Activity Log**: Track who added/updated what and when
+- **📤 Reports Export**: Download CSV/PDF summaries of deals, expenses, and earnings
+- **🔎 Search & Filters**: Everywhere – by date, client name, status, etc.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend**: [Next.js](https://nextjs.org/), [Shadcn UI](https://ui.shadcn.com/)
+- **Table/Grid**: [TanStack Table](https://tanstack.com/table)
+- **Database**: [PostgreSQL](https://www.postgresql.org/)
+- **ORM**: [Prisma](https://www.prisma.io/)
+- **Notifications**: Firebase Push / WhatsApp API *(to be explored)*
+- **Deployment**: Vercel / Railway / Custom VPS *(TBD)*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🏗️ Project Goals
 
-## Deploy on Vercel
+This CRM is built **by need** and **for need** — it's an evolving project aiming to:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Improve daily operations of a real estate business
+- Centralize critical data into a single, intuitive dashboard
+- Learn and apply modern web development practices
+- Be helpful to others in the real estate or small-business sector

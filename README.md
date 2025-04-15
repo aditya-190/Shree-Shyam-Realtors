@@ -1,4 +1,4 @@
-# 🏡 Shree Shyam Realtors CRM
+# 🏡 Shree Shyam Realtors CRM (Work in Progress)
 
 A modern, open-source **Customer Relationship Management (CRM)** system built with **Next.js** to streamline and summarize the day-to-day operations of a real estate business — tailored for the family business - **Shree Shyam Realtors**.
 
